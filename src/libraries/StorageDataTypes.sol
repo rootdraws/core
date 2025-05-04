@@ -14,9 +14,9 @@ struct InstrumentStorage {
 struct YieldInstrumentStorage {
     bytes6 baseId;
     bytes6 quoteId;
-    IFYToken quoteFyToken;
-    IFYToken baseFyToken;
-    IPool basePool;
-    IPool quotePool;
+    //IFYToken quoteFyToken;
+    //IFYToken baseFyToken;
+    //IPool basePool;
+    //IPool quotePool;
     uint96 minQuoteDebt;
 }
