@@ -2,9 +2,9 @@
 pragma solidity 0.8.17;
 
 import "../interfaces/IFeeModel.sol";
-import "solmate/src/tokens/ERC20.sol";
-import {IFYToken} from "@yield-protocol/vault-v2/src/interfaces/IFYToken.sol";
-import {IPool} from "@yield-protocol/yieldspace-tv/src/interfaces/IPool.sol";
+import "lib/solmate/src/tokens/ERC20.sol";
+// import {IFYToken} from "@yield-protocol/vault-v2/src/interfaces/IFYToken.sol";
+// import {IPool} from "@yield-protocol/yieldspace-tv/src/interfaces/IPool.sol";
 
 type Symbol is bytes32;
 
@@ -34,11 +34,11 @@ struct YieldInstrument {
     bool closingOnly;
     bytes6 baseId;
     ERC20 base;
-    IFYToken baseFyToken;
-    IPool basePool;
+    //IFYToken baseFyToken;
+    // IPool basePool;
     bytes6 quoteId;
     ERC20 quote;
-    IFYToken quoteFyToken;
-    IPool quotePool;
+    // IFYToken quoteFyToken;
+    // IPool quotePool;
     uint96 minQuoteDebt;
 }

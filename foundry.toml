@@ -35,10 +35,10 @@ ignored_error_codes = [5574] # code size warning
 optimizer = false
 
 [rpc_endpoints]
-arbitrum = "${ARBITRUM_URL}"
-localhost = "http://127.0.0.1:8545"
 mainnet = "${MAINNET_URL}"
+sepolia = "${SEPOLIA_URL}"
+arbitrum = "${ARBITRUM_URL}"
 
 [etherscan]
-arbitrum = {key = "${ETHERSCAN_ARBITRUM_KEY}"}
-mainnet = {key = "${ETHERSCAN_MAINNET_KEY}"}
+mainnet = { key = "${ETHERSCAN_MAINNET_KEY}" }
+arbitrum = { key = "${ETHERSCAN_ARBITRUM_KEY}" }

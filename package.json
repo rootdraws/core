@@ -19,5 +19,10 @@
   },
   "devDependencies": {
     "solhint": "^3.3.6"
+  },
+  "dependencies": {
+    "@morpho-org/blue-sdk": "^3.0.2",
+    "@morpho-org/bundler-sdk-viem": "^3.1.0",
+    "@morpho-org/morpho-blue": "^1.0.0"
   }
 }
