@@ -1,4 +1,4 @@
-# Contango Protocol
+# Contango Protocol as a foundation for mPerps.
 
 Contango is bringing expirables to DeFi. Buy or sell assets at a set price and date in the future without order books or liquidity pools. When a trader opens a position, the protocol borrows on the fixed-rate market, swaps on the spot market, then lends back on the fixed-rate market. Contango offers physical delivery and a minimal price impact for larger trades. Join us at [contango.xyz](https://contango.xyz). 
 
