@@ -4,6 +4,11 @@ pragma solidity ^0.8.4;
 import "../libraries/DataTypes.sol";
 import "../ContangoPositionNFT.sol";
 
+// INTERFACE: Administrative Functions
+// Closing Mode Only
+// Fee Model Management
+// Token Whitelisting
+
 interface IContangoAdminEvents {
     event ClosingOnlySet(bool closingOnly);
     event ClosingOnlySet(Symbol indexed symbol, bool closingOnly);

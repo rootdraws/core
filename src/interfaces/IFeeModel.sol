@@ -3,6 +3,9 @@ pragma solidity ^0.8.4;
 
 import "../libraries/DataTypes.sol";
 
+// INTERFACE: Fee Model for position operations.
+// Calculate the fee for a given trade.
+
 interface IFeeModel {
     /// @notice Calculates fees for a given trade
     /// @param trader The trade trader

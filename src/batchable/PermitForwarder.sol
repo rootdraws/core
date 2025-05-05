@@ -6,6 +6,8 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "dss-interfaces/src/dss/DaiAbstract.sol";
 import "../libraries/ConfigStorageLib.sol";
 
+// ABSTRACT: This allows for bulk permit signing for batched transactions.
+
 abstract contract PermitForwarder {
     using SafeERC20 for IERC20Permit;
 

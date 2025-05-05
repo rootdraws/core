@@ -3,7 +3,9 @@ pragma solidity ^0.8.4;
 
 import "../libraries/QuoterDataTypes.sol";
 
-/// @title Interface to allow for quoting position operations
+// INTERFACE: Quoter for position operations.
+// Provide the cost of opening/modifying a position.
+
 interface IContangoQuoter {
     error InsufficientLiquidity();
 

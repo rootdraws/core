@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0;
 
+// INTERFACE: Balancer is not used on Corn.
+
 interface IFlashLoaner {
     function flashLoan(
         IFlashLoanRecipient recipient,

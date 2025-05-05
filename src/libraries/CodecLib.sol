@@ -1,6 +1,9 @@
 //SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity 0.8.17;
 
+// LIBRARY: CodecLib is used to encode and decode data.
+// When Collateral/Fees or Quantity/Cost are stored in a single slot,
+
 library CodecLib {
     error InvalidInt128(int256 n);
     error InvalidUInt128(uint256 n);

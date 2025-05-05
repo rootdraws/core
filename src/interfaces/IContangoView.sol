@@ -4,7 +4,8 @@ pragma solidity ^0.8.4;
 import "../libraries/DataTypes.sol";
 import "./IFeeModel.sol";
 
-/// @title Interface to state querying
+// INTERFACE: View functions for the contract.
+
 interface IContangoView {
     function closingOnly() external view returns (bool);
     function feeModel(Symbol symbol) external view returns (IFeeModel);

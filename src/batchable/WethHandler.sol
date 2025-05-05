@@ -5,6 +5,8 @@ import "solmate/src/tokens/WETH.sol";
 import "solmate/src/utils/SafeTransferLib.sol";
 import "../libraries/Errors.sol";
 
+// ABSTRACT: Batch System can include wrapping and unwrapping of WETH.
+
 abstract contract WethHandler {
     using SafeTransferLib for address payable;
 

@@ -3,6 +3,10 @@ pragma solidity ^0.8.4;
 
 import "./IContangoView.sol";
 
+// INTERFACE: Main position management contract.
+// Create + Modify + Deliver + Liquidate + Close
+// Events.
+
 uint256 constant MIN_DEBT_MULTIPLIER = 5;
 
 interface IContangoEvents {

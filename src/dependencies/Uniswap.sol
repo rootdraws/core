@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity 0.8.17;
 
+// INTERFACE: Uniswap is used on Corn.
+// WBTCN/USDT0 Pool:
+// https://oku.trade/info/corn/pool/0x660c6c6c2ad9be9fca2d40da22e1e6142ce5e7ca
+
 /// @dev strip down version of https://github.com/Uniswap/v3-core/blob/864efb5bb57bd8bde4689cfd8f7fd7ddeb100524/contracts/libraries/TickMath.sol
 /// the published version doesn't compile on solidity 0.8.x
 library TickMath {
